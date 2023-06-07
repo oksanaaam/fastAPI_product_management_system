@@ -30,24 +30,24 @@ The API will be available at http://localhost:8000.
 
 ## API Usage
 API documentation will be available at http://localhost:8000/docs
-![img.png](img for README/img.png)
+![img.png](img%20for%20README%2Fimg.png)
 
 ### Get All Products
-![img.png](img for README/img_1.png)
+![img_1.png](img%20for%20README%2Fimg_1.png)
 
 - Endpoint: GET /products/
 - Parameters:
 - receives a product's name, description and price in JSON format
 
 ### Get a Product
-![img.png](img for README/img_4.png)
+![img_4.png](img%20for%20README%2Fimg_4.png)
 
 - Endpoint: GET /products/{product_id}/
 - Parameters:
 - product_id (path parameter): ID of the product to retrieve
 
 ### Create a Product
-![img.png](img for README/img_2.png)
+![img_2.png](img%20for%20README%2Fimg_2.png)
 
 - Endpoint: POST /products/
 - Request Body: JSON object with the following fields:
@@ -56,7 +56,7 @@ API documentation will be available at http://localhost:8000/docs
 - price (float): Price of the product
 
 ### Update a Product
-![img.png](img for README/img_5.png)
+![img_5.png](img%20for%20README%2Fimg_5.png)
 
 - Endpoint: PUT /products/{product_id}/
 - Parameters:
@@ -67,7 +67,7 @@ API documentation will be available at http://localhost:8000/docs
 - price (float): Updated price of the product
 
 ### Delete a Product
-![img.png](img for README/img_6.png)
+![img_6.png](img%20for%20README%2Fimg_6.png)
 
 - Endpoint: DELETE /products/{product_id}/
 - Parameters:
